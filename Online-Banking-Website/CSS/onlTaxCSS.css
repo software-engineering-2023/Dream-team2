@@ -1,0 +1,116 @@
+@import url("../CSS/homeCSS.css");
+#on{
+    height:500px;
+    width:700px;
+    background-image: url(../Images/tax.jpg);
+    border-radius:30px;
+    background-size: 700px 500px;
+    margin:30px auto;
+}
+#paybtn{
+    height:50px;
+    width:100px;
+    border-radius:30px;
+    border-style: outset;
+    font-size:30px;
+    background-color:#060607;
+    color:#EAE9F3;
+
+}
+#block{
+    height:50px;
+    width:100px;
+    border-radius:30px;
+    border-style: outset;
+    font-size:30px;
+    background-color:#060607;
+    color:#EAE9F3;
+}
+#closeacc{
+    height:50px;
+    width:250px;
+    border-radius:30px;
+    border-style: outset;
+    font-size:30px;
+    background-color:#060607;
+    color:#EAE9F3;
+
+}
+#text{
+    border:none;
+    border-radius:70px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    
+}
+#texxt{
+    font-size: 25px;
+}
+#te{
+    font-size: 25px;
+}
+#fix{
+    height:50px;
+    width:150px;
+    border-radius:30px;
+    border-style: outset;
+    font-size:30px;
+    background-color:#060607;
+    color:#EAE9F3;
+}
+#accno{
+    height:50px;
+    border-radius:20px;
+    padding:30px;
+    font-size:30px;
+    font-weight:bolder;
+    margin:10px;
+    width: 30%;
+}
+#block2{
+    height:50px;
+    width:380px;
+    border-radius:30px;
+    border-style: outset;
+    font-size:30px;
+    background-color:#060607;
+    color:#EAE9F3;
+}
+#closeacc2{
+    height:50px;
+    width:250px;
+    border-radius:30px;
+    border-style: outset;
+    font-size:30px;
+    background-color:#060607;
+    color:#EAE9F3;
+
+}
+#closeacc22{
+    height:50px;
+    width:400px;
+    border-radius:30px;
+    border-style: outset;
+    font-size:30px;
+    background-color:#060607;
+    color:#EAE9F3;
+
+}
+#closeacc222{
+    height:50px;
+    width:500px;
+    border-radius:30px;
+    border-style: outset;
+    font-size:30px;
+    background-color:#060607;
+    color:#EAE9F3;
+
+}
+#bankerr{
+    height:50px;
+    width:300px;
+    border-radius:30px;
+    border-style: outset;
+    font-size:30px;
+    background-color:#060607;
+    color:#EAE9F3;
+}

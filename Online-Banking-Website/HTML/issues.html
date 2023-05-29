@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Account | Online Banking Website</title>
+        <link href="../CSS/accCSS.css" rel="stylesheet">
+        <script src="../Java Script/Account.js"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <!-- <h1>Online Banking Website</h1> -->
+            <a href="home.html"><img src="../Images/logo3.png" alt="Online Banking System"
+                    title="Online Banking Website"></a>
+       
+        <a href="" id="redirectLink"></a>
+        <form method="POST">
+            <fieldset>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <input type="radio" id="The card is damaged" name="card" value="The card is damaged">
+                <label for="The card is damaged">The card is damaged</label><br>
+                <input type="radio" id="The card is lost" name="card" value="The card is lost">
+                <label for="The card is lost">The card is lost</label><br>
+                <input type="radio" id="The card is stolen" name="card" value="The card is stolen">
+                <label for="The card is stolen">The card is stolen</label><br>
+                <input type="radio" id="other_issue" name="card" value="other_issue">
+                <label for="other_issue">other issue</label><br>
+                <input type="text" placeholder=" other issues" id="other_issues"><br />
+                <button type="button" id="cc" value="0" onclick="submitt()">Submit</button>
+            </fieldset>
+        </form>
+        <script src="../Java Script/Account.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fixed Deposit | Online Banking Website</title>
+        <link href="../CSS/fixDepCSS.css" rel="stylesheet">
+        <script src="../Java Script/newbankaccount.js"></script>
+    </head>
+
+    <body onload="load();">
+        <div id="header">
+            <!-- <h1>Online Banking Website</h1> -->
+            <a href="home.html"><img src="../Images/logo3.png" alt="Online Banking System"
+                    title="Online Banking Website"></a>
+        </div>
+        <div>
+            <h1>Apply for debit/ credit card</h1>
+            <form method="POST">
+                <input type="text" id="Name" maxlength="16" placeholder="please enter your Name:" onblur="return validAcc();"><br />
+                <input type="text" id="mobile" placeholder="please enter your mobile number:"><br />
+                <label>Please specify the needed card type:</label><br />
+                <select name="cards">
+                    <option value="credit">Credit Card</option>
+                    <option value="debit" selected>Debit Card</option>
+                    <option value="debit" selected>both</option>
+                    
+                </select><br /> 
+                 <input type="text" id="nameh" placeholder="Enter the card holder name:"><br /> 
+                <input type="text" id="id" placeholder="Enter the national id/ passport number:"><br />
+                <label id="labell">*Please note: that you are required to submit the following documents in your nearest branch to complete your Account(National id/passport copy/collaterals/Birth certificate)*</label><br/>
+                <p id="result"></p>
+                
+                
+                <br>
+                <button type="button" id="paybtnn" onclick="creditcardm();">Submit</button>
+            </form>
+        </div>
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Account | Online Banking Website</title>
+        <link href="../CSS/Applyfor.css" rel="stylesheet">
+        <script src="../Java Script/creditcard.js"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <h1>Online Banking Website</h1>
+            <a href="home.html"><img src="../Images/logo.png" alt="Online Banking System"
+                    title="Online Banking Website"></a>
+       
+        <a href="" id="redirectLink"></a>
+        <form method="POST">
+            <fieldset>
+                
+                <input type="text" placeholder="Please enter your documents:" id="document"><br />
+                <button type="button" id="submit" value="0" onclick="submitbb()">submit</button>
+            </fieldset>
+        </form>
+
+        <script src="../Java Script/creditcard.js"></script>
+    </body>
+
+</html> -->

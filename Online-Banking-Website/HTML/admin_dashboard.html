@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/onlTaxCSS.css">
+    <script src="../Java Script/admin_dashboard.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1>Admin Dashboard</h1>
+        <br>
+        <br>
+        <br>
+        <br><br><br><br>
+            <input type="text" id= "texxt"disabled placeholder="technical issue:...">
+            <button type="button" id="bankerr" value="0" onclick="">Fix</button>
+            <br>
+            <input type="text" id="accno" maxlength="16" placeholder="Enter the Account No.:" onblur="return validAcc();">
+            <br>
+            <button type="button" id="bankerr" value="0" onclick="block();">Block User</button>
+            <br>
+            <button type="button" id="bankerr" value="0" onclick="closeacc();">close account</button>
+            <br>
+            <button type="button" id="bankerr" value="0" onclick="banker();">Add new Banker</button>
+            <br>
+            <button type="button" id="bankerr" value="0" onclick="bankerblock();">Block Banker</button>
+            <br>
+            <button type="button" id="bankerr" value="0" onclick="thirdparty();">Add thirdparty</button>
+            <br>
+            <input type="text" id="accno" maxlength="100" placeholder="Send Announcments:" onblur="return validAcc();">
+            <button type="button" id="bankerr" value="0" onclick="Sendd();">Send</button>
+
+
+            <a href="home.html"><img src="../Images/logo3.png" alt="Online Banking Website" title="Online Banking Website"></a>
+    </div>
+    <div>
+        <h1>Welcome Admin</h1>
+        <script src="../Java Script/admin_dashboard.js"></script>
+    </div>
+</body>
+</html>

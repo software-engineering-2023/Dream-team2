@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bill Payment | Online Banking Website</title>
+        <script src="../Java Script/billPayJS.js"></script>
+        <link rel="stylesheet" href="../CSS/billPayCSS.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <!-- <h1>Online Banking Website</h1> -->
+            <a href="home.html"><img src="../Images/logo3.png" alt="Online Banking System"
+                    title="Online Banking Website"></a>
+        </div>
+
+        <div>
+            <h1>Bill Payment</h1>
+            <form action="" method="POST">
+                <fieldset>
+                    <label>Which Type of bill payment:</label>
+                    <select name="type">
+                        <div>
+                            <option value="cc">Credit card bills</option>
+                            <option value="Electricity">Electricity</option>
+                            <option value="telephone">Telephone</option>
+                            <option value="Water">Water</option>
+                            <option value="Gas">Gas</option>
+                        </div>
+                    </select><br />
+                    <input type="text" size="16" id="billno" placeholder="Ente the Bill / Account No.:"><br />
+                    <input type="number" id="Amount" placeholder="Enter the amount to pay:" min="1" max="20000"><br />
+                    <p id="error"></p>
+                    <!-- <button type="button" id="paybtn" onclick="goto();">Pay</button>
+                    <button type="button" id="paybtn" onclick="gotoo();">reminder</button> -->
+                
+                    <br>
+                    <label>pay with:</label>
+                    <select name="type">
+                        <div>
+                            <option value="paymob">With the bank</option>
+                            <option value="paymob">paymob</option>
+                            <option value="fawry">Fawry</option>
+                            <option value="vodafone">vodafone</option>
+                        </div>
+                    </select><br/>
+                    <button type="button" id="paybtn" onclick="goto();">Pay</button>
+                    <button type="button" id="paybtnn" onclick="gotoo();">reminder</button>
+                <br>
+                <label>Received reminders:</label>
+
+
+                </fieldset>
+            </form>
+        </div>
+    </body>
+
+</html>
